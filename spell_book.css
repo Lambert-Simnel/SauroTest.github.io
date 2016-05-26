@@ -1,0 +1,82 @@
+
+
+#nature {
+	color: green;
+}
+#death {
+	color: purple;
+}
+#astral {
+	color: #a9d6d4;
+    text-shadow:
+    /* Outline */
+    -1px -1px 0 #60939f,
+    1px -1px 0 #60939f,
+    -1px 1px 0 #60939f,
+    1px 1px 0 #60939f,  
+    -2px 0 0 #60939f,
+    2px 0 0 #60939f,
+    0 2px 0 #60939f,
+    0 -2px 0 #60939f; /* Terminate with a semi-colon */
+}
+#blood {
+	color: #cc0000;
+}
+#water {
+	color: blue;
+}
+#fire {
+	color:rgb(255, 92, 0);
+}
+#earth {
+	color: #a64a2b;
+}
+#air {
+	color:white;
+    text-shadow:
+    /* Outline */
+    -1px -1px 0 gray,
+    1px -1px 0 gray,
+    -1px 1px 0 gray,
+    1px 1px 0 gray,  
+    -2px 0 0 gray,
+    2px 0 0 gray,
+    0 2px 0 gray,
+    0 -2px 0 gray; /* Terminate with a semi-colon */
+}
+
+.btn1 {
+    background-color: #ffcc66; 
+    border: black;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+	margin: 0 45px 0 45px;
+}
+
+.btn2 {
+    background-color: #ffcc66; 
+    border: black;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+	margin: 0 45px 0 45px;
+}
+
+.btn3 {
+    background-color: #ffcc66;
+    border: black;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+	margin: 0 45px 0 45px;
+}

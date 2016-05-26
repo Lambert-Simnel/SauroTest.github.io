@@ -1,0 +1,281 @@
+<!doctype html>
+<html>
+<head>
+	<title>Spell Book</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="spell_book.css">	
+	<link rel="stylesheet" type="text/css" href="Sauromatia_Guide.css">
+
+<style>
+p {
+    margin: 5px;
+    padding: 0;
+}
+
+</style>
+	
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+	
+<script>
+$(document).ready(function(){
+    $(".btn1").click(function(){
+        $(".nonnative").hide();
+		$(".native").show();
+    });
+    $(".btn2").click(function(){
+        $(".native").hide();
+		$(".nonnative").show();
+    });
+    $(".btn3").click(function(){
+        $(".native").show();
+		$(".nonnative").show();
+    });
+	
+});
+</script>
+	
+</head>
+
+<body> 
+
+
+<section>
+<h1> A Sauromatian Spellbook </h1>
+<br>
+<br>
+<button class="btn1">View Native Spells.</button> 
+<button class="btn2">View Non-native Spells.</button>
+<button class="btn3">View All Spells.</button>
+<br>
+<br>
+
+<hr>
+<h2> Thaumaturgy </h2>
+
+<div class="native">
+<h4 id="astral">Communion Master</h4>
+<p><b>Thaumaturgy 1, S1.</b><br>
+A mage casting this spell will offload fatigue to mages having previous cast Communion Slave.<br>
+The rate at which this is done is dependant on the number of slaves, the skill of both<br>
+the slaves and the master, as well as the difficulty of the spells cast.</p><br>
+</div>
+
+<div class="native">
+<h4 id="astral">Communion Slave</h4>
+<p><b>Thaumaturgy 1, S1.</b><br>
+A mage casting this spell will absorb some fatigue of a spell cast by a mage with Communion Master. </p>
+<br></div>
+
+<div class="native">
+<h4 id="death">Dust to Dust</h4>
+<p><b>Thaumaturgy 1, D1.</b><br>
+Deals 22++ damage to all undead on a square.
+</div>
+
+
+
+
+
+<hr>
+<h2>Enchantment </h2>
+
+<div class="native">
+<h4 id="astral">Antimagic</h4>
+<p><b>Enchantment 4, S3, 1 Astral Pearl.</b> <br>
+Increases Magic Resist of all friendly troops by +4.<br>
+Until you get Doom, a clammed Soothsayer should be casting this with Power of the Spheres.</p><br>
+</div>
+
+<div class="native">
+<h4 id="death">Twiceborn</h4>
+<p><b>Enchantment 4, D2, 10 Death Gems.</b> <br>
+Enchants a non-undead death mage with temporary immortality.<br>
+When they die in friendly dominion, respawn at your cap as a <br>
+Wight Mage with the same paths and a 25% chance to gain 1 Death path.<br>
+<br>
+When used on a D4 Witch King, the extra D path will get you to Tartarians natively.</p><br>
+</div>
+
+<div class="native">
+<h4 id="death">Hordes of Skeletons</h4>
+<p><b>Enchantment 5, D2.</b><br>
+Along with Communion Slave/Master, one of Sauromatias nation-defining spells.<br>
+When cast will summon 6+ skeletons.</p><br>
+</div>
+
+<div class="native">
+<h4 id="nature">Foul Vapours</h4>
+<p><b>Enchantment 5, N3W1, 2 nature Gems.</b><br>
+A good spell which becomes more effective the longer the battle.<br>
+While most of Sauromatias mages do have some poison resist, Serpents Blessing is <br>
+recommended while casting the spell. </p><br>
+</div>
+
+<div class="native">
+<h4 id="nature">Relief</h4>
+<p><b>Enchantment 6, N5, 1 Nature Gem.</b><br>
+You will require a Witch King Sabbath Master in order to cast this.<br>
+This spell will heal 1 + DRN - DRN points of fatigue from every friendly unit every round.<br>
+This averages to about 2.67, offsetting the expected damage from Rigor Mortis by half. </p><br>
+</div>
+
+<div class="native">
+<h4 id="death">Rigor Mortis</h4>
+<p><b>Enchantment 6, D4, 1 Death Gem.</b><br>
+Essentially, comms are better at long protracted battles as they have a larger supply of fatigue.<br>
+This is to say that they are best once the enemy mages hit 100 fatigue.<br>
+Rigor mortis can make this happen much faster, and combined with Relief you will far outlast the opponent.<br>
+<br>
+Moreover, troops that are asleep due to fatigue tend to stay asleep, as the innate +5 reinvigoration gained at 
+100 fatigue is largely negated.  </p><br>
+</div>
+
+<div class="native">
+<h4 id="death">Life After Death</h4>
+<p><b>Enchantment 7, D4, 4 Death Gems.</b><br>
+Cast during battle, any commander that dies will reanimate as a Soulless commanders<br>
+With the paths they had during life. Units will also turn into soulless. </p>
+</div>
+
+
+
+
+
+<hr>
+<h2> Alteration </h2>
+
+<div class="native">
+<h4 id="nature">Swarm</h4>
+<p><b>Alteration 4, N1, 1 Nature Gem.</b><br>
+Instant Chaff, the spell. Rather easy to get, and solves a lot of issues you might have when the chaff gets low. </p><br>
+</div>
+
+<div class="nonnative">
+<h4 id="earth">Curse of Stones</h4>
+<p><b>Alteration 4, E3, 3 Earth Gems.</b><br>
+Magic Resistance Easily Negates means enemy troops must roll vs 8 to be unaffected.<br>
+Every unit that fails the save will earn d6 fatigue when attacking and d4 fatigue when moving.<br>
+Moreover affected units will move roughly half as many spaces every turn.
+</p><br></div>
+
+<div class="native">
+<h4 id="death">Soul Vortex</h4>
+<p><b>Alteration 6, D3.</b><br>
+A spell used by Vampire Lords and the fabled Witch King thugs.<br> 
+A mage casting Soul Vortex will feed off the surrounding units to replenish its life energies.<br>
+For every point of damage caused by Soul Vortex, the casting mage will heal 1hp and 4 fatigue. <br>
+his can be used to have thugs stay fresh in the heat of battle, but also tactically, within the ranks of your own army, leaching fatigue from “mana batteries”.<br>
+<br> 
+Consider the following scenario:<br>
+You want your Witch King to soak in a pool of virgin blood, however to everyone’s dismay his throbbing manhood isn’t what it’s used to be.<br> 
+Now you could use the aptly named reinvigorate spell to solve this, but he might tire out again before the battle is over.<br>
+What do you do? Surround him with fleshy human archers and watch him suck their life energy like the true flayer of men he is. <br>
+A single archer will give him 40 fatigue back </p><br>
+</div>
+
+<div class="native">
+<h4 id="death">Darkness</h4>
+<p><b>Alteration 6, D4, 4 Death Gems.</b><br>
+Battlefield enchantment. All troops without darkvision suffer a penalty of -6 to defence, attack and precision.<br>
+Demons, and more importantly undead, have 100% darkvision; so in particular, longdead do not incur this malus </p>
+</div>
+
+
+
+
+
+<hr>
+<h2> Conjuration </h2>
+
+<div class="native">
+<h4 id="astral">Power of the Spheres</h4>
+<p><b>Conjuration 3, S1, 1 Astral Pearl.</b><br>
+This spell grants the mage, and any slaves they might master, +1 in all magic paths.<br>
+In an enari communion, PotS can give you a rather good communion with 4 slaves and
+9 masters, spawning 90 skeletons every turn. </p><br>
+</div>
+
+<div class="native">
+<h4 id="astral">Light of the Northern Star</h4>
+<p><b>Conjuration 4, S3, 2 Astral Pearls.</b><br>
+Grant every astral mage on the battlefield one extra astral path.<br>
+This turns all your S1 soothsayers into S2 soothsayers capable of spamming stellar cascades. </p><br>
+</div>
+
+<div class="native">
+<h4 id="nature">Howl</h4>
+<p><b>Conjuration 5, N3, 3 Nature Gems.</b><br>
+This spell spawns 4-6 friendly wolves in one of the cardinal directions every turn.<br>
+Howl is castable by an N2 Warrior Sorceress with a Thistle Mace.<br>
+Generally worth its cost in gems, Howl is good at soaking up evocation spam <br>
+and surprising unguarded mages in the backrow. </p>
+</div>
+
+
+
+
+
+<hr>
+<h2> Evocation </h2>
+
+<div class="native">
+<h4 id="water">Rain</h4>
+<p><b>Evocation 2, 		W2, 1 Water Gem.</b><br>
+Castable with any water random mage with a Water Bracelet, but more realistically by a water random Witch King in a Sabbath.<br> 
+Finds most utility against fire nations which shread skeletons.<br>
+Not only does it quench fires, but its fatigue increasing effect on fire spells mix well with the nature of Sauromatias army. </p><br>
+</div>
+
+<div class="native">
+<h4 id="astral">Stellar Cascades</h4>
+<p><b>Evocation 5, S2.</b><br>
+The only reason to have Soothsayers helping your armies in any large number. <br>
+et 15-20 soothsayers and someone casting Light of the North Star and watch your opponent fall asleep before raging waves of skeletons. </p><br>
+</div>
+
+<div class="native">
+<h4 id="death">Shadow Blast</h4>
+<p><b>Evocation 5, D2, 1 Death Gem.</b><br>
+A 6+ buckshot of 20+ AN MRN damage which paralyses those it touches.<br>
+Death random Witch Kings sporting spiffy Skull Staves can deal quite a bit of havoc in the first few turns of battle using this spell. </p><br>
+</div>
+
+<div class="native">
+<h4 id="nature">Storm of Thorns</h4>
+<p><b>Evocation 7, N2.</b><br>
+The only spell your N2 Warrior Sorceresses should be casting besides battlefield buffs.<br>
+Shoots 7++ thorn arrows dealing 15+ piercing damage (ignores 20% of prot) and entangling the victims. </p><br>
+</div>
+
+<div class="native">
+<h4 id="astral">Nether Darts</h4>
+<p><b>Evocation 7, S1D1.</b><br>
+Shoots out a dozen or so nether bolts that deal 15+ armour piercing MRN damage with AoE1 enfeeble mind.<br>
+Any Enari that you cannot place into the communion can shoot off this spell for good effect.  </p>
+</div>
+
+
+
+
+
+<hr>
+<h2> Blood </h2>
+
+<div class="native">
+<h4 id="blood">Curse of Blood</h4>
+<p><b>Blood 7, B3D4, 77 Blood Slaves.</b><br>
+Summons a Vampire Lord. Practically all of your blood economy should be going into this. </p><br>
+</div>
+
+
+<table><tr> <td></td> <td></td> <td></td> </tr></table>
+
+</section>
+
+
+<a id="return" href="Sauromatia_Guide.html"> Go back! </a>
+
+</body>
+
+
+</html>

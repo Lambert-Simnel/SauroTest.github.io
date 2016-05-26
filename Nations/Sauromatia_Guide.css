@@ -1,0 +1,58 @@
+/* body {
+	background-color:#B452CD;
+} */
+body, section {
+	font-family: calibri, papyrus, helvetica;
+}
+
+body {
+	padding-top:30px;
+	padding-bottom:10px;
+    background-image: url(../wisteria.jpg);
+    background-repeat: repeat;
+    background-position: right top;
+}
+section {
+    border-style: solid;
+    border-width: 15px;
+    border-color: pink;
+	border-radius: 75px;
+	background-color:  #ffe6e6;
+	width:80%;
+	margin-right:auto;
+	margin-left:auto;
+	border-width:5px;
+	padding:2%;
+}
+
+img {
+	border-radius:10px;
+    border-width: 3px;
+    border-color: #ff66d9;
+}
+
+h1 {
+	text-align: center;
+}
+
+h2 {}
+	
+h3 {
+	color:black
+} 
+
+h4 {
+	color:gray;
+	margin: 0 0 0 0;
+	
+}
+
+#return {
+	background-color: white;
+	border-radius: 5px;
+	border-width: 4px;
+	border-color: pink;
+	border-style: solid;
+	color: blue;
+	text-decoration: none;
+}
